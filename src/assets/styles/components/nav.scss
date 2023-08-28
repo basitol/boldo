@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    h2 {
+      color: var(--text-color);
+      font-family: "Manrope", sans-serif;
+      font-size: 43.25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.639px;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    color: var(--text-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    z-index: 5;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      list-style: none;
+
+      li {
+        cursor: pointer;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+}

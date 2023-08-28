@@ -1,0 +1,37 @@
+.services {
+  padding: 84px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    color: var(--gray);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  h1 {
+    color: #000;
+    text-align: center;
+    /* Headings/Text XXL */
+    font-family: "Manrope";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 84px;
+    width: 100%;
+
+    gap: 100px;
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* Colors */
+:root {
+  --primary-color: #007bff;
+  --background-color: #fff;
+  --header-bg-color: #0a2640;
+  --nav-bg-color: #444;
+  --footer-bg-color: #333;
+  --text-color: #fff;
+  --dark-blue: #0a2640;
+  --light-grey: #f1f1f1;
+  --green: #69e6a6;
+  --gray: #777777;
+}
+
+/* Fonts */
+:root {
+  font-family: "Open Sans", sans-serif;
+  --font-family-manrope: "Manrope";
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}

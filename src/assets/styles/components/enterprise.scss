@@ -1,0 +1,75 @@
+.testimonial {
+  width: 100%;
+  background-color: var(--dark-blue);
+
+  .content {
+    padding: 100px 150px;
+
+    h1 {
+      color: #fff;
+      /* Headings/Text XXL */
+      font-family: "Manrope";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 72px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 4.5rem;
+  }
+
+  &__card {
+    display: inline-flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 40px;
+    width: 33.33%;
+    height: 100%;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+
+    h2 {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px;
+    }
+
+    .author {
+      display: flex;
+      gap: 1rem;
+
+      .details {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          color: var(--dark-blue);
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 32px;
+        }
+
+        .company {
+          display: flex;
+
+          h3 {
+            color: var(--dark-blue);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.connect {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 124px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    gap: 100px;
+
+    .main {
+      flex: 1;
+      h2 {
+        color: #000;
+        /* Headings/Text XL */
+        font-family: Manrope;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+      }
+    }
+
+    .modals {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 2rem;
+
+      h3 {
+        color: #000;
+        /* Paragraphs/Text S */
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 16px;
+      }
+
+      .line {
+        height: 1px;
+        width: 100%;
+        background-color: #c4c4c4;
+      }
+
+      .modal {
+      }
+    }
+  }
+}
